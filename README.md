@@ -18,6 +18,7 @@ Display the amount of ingredients on the recipe site at a custom magnification.�
 拡張機能アイコンバーに追加された当ツールをクリックすると設定ページがポップアップされます。  
 ここで倍率の設定と小数点以下の端数表記の設定ができます。  
 レシピページに表記された分量やn人分などから、作りたい分量への倍率を設定すると画像のように「本来の分量 → 設定した倍率の分量」という表示になります。  
+<img src="https://user-images.githubusercontent.com/71125646/93037267-faa95380-f67c-11ea-951e-95747551faee.png" width=50%>  
 
 # 対応サイト一覧
 なお、当ツールは個人作成であり各サイトとは一切関係ありません。
