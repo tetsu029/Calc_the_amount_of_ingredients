@@ -6,11 +6,11 @@ Display the amount of ingredients on the recipe site at a custom magnification.�
 
 # 導入方法
 当ツールはPC版Chrome拡張機能のみとなっています。  
-①「レシピ分量計算機」ディレクトリをダウンロード  
+①githubからダウンロード、解凍  
 ②Chromeで「chrome://extensions/」にアクセス  
 ③デベロッパーモードをONにする  
 ④「パッケージ化されていない拡張機能を読み込む」を選択  
-⑤ダウンロードしたディレクトリを選択  
+⑤ダウンロードしたフォルダ内の「レシピ分量計算機」フォルダを選択  
 これで対応サイトにアクセスしレシピページを表示した場合に機能します。  
 参考：[自作の拡張機能をChromeに追加するには - パッケージ化されていない拡張機能を読み込む](http://reviews.f-tools.net/Add-On/Jisaku-Tuika.html#Reading)  
 
