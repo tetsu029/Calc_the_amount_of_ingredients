@@ -1,0 +1,51 @@
+{
+  "name": "レシピ分量計算機",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "browser_action" : {
+    "default_popup" : "html/options.html"
+  },
+  "description": "レシピ分量計算機 - レシピサイトの材料の分量を計算します。対応：cookpad、みんなのきょうの料理、キッコーマン、プロから学ぶ簡単家庭料理 シェフごはん、キユーピー、クラシル、AJINOMOTO PARK、だいどこログ、白ごはん.com、cotta、オレンジページnet、レタスクラブ、Nadia、楽天レシピ",
+  "content_scripts": [{
+    "matches": ["https://cookpad.com/recipe/*",
+                "https://recipe.cotta.jp/recipe.php?recipeid=*",
+                "https://www.sirogohan.com/recipe/*",
+                "https://daidokolog.pal-system.co.jp/recipe/*",
+                "https://park.ajinomoto.co.jp/recipe/*",
+                "https://www.kurashiru.com/recipes/*",
+                "https://www.kyounoryouri.jp/recipe/*",
+                "https://www.kewpie.co.jp/recipes/recipe/*",
+                "https://chefgohan.gnavi.co.jp/detail/*",
+                "https://www.kikkoman.co.jp/homecook/search/recipe/*",
+                "https://www.orangepage.net/recipes/detail_*",
+                "https://www.lettuceclub.net/recipe/dish/*",
+                "https://oceans-nadia.com/user/*/recipe/*",
+                "https://recipe.rakuten.co.jp/recipe/*",
+                "https://delishkitchen.tv/recipes/*"],
+    "js": [
+      "js/content.js",
+      "js/createTag.js",
+      "js/cookpad.js",
+      "js/cotta.js",
+      "js/sirogohan.js",
+      "js/daidokolog.js",
+      "js/ajinomoto.js",
+      "js/kurashiru.js",
+      "js/kyounoryouri.js",
+      "js/kewpie.js",
+      "js/chefgohan.js",
+      "js/kikkoman.js",
+      "js/orangepage.js",
+      "js/lettuceclub.js",
+      "js/nadia.js",
+      "js/rakuten.js",
+      "js/delishkitchen.js"
+    ]
+  }],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "permissions": []
+}

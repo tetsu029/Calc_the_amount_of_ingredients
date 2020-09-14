@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+        <script src="/js/options.js" defer></script>
+        <style media="screen">
+            #fm{
+                width: 200px;
+                height: 120px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            p{
+                margin: 0;
+            }
+            .brock{
+                width: 50%;
+                padding: 2.5% 2.5%;
+            }
+            .bun{
+                background:#eceeef;
+            }
+            .note{
+                background:#dee1e3;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="fm">
+            <div class="brock bun">
+                分子<input id="num" type="number" min="1" max="9999"/><br>
+                分母<input id="den" type="number" min="1" max="9999"/>
+            </div>
+            <div class="brock note">
+                <p>端数表記</p>
+                <input type="radio" name="note" value="0">そのまま</input><br>
+                <input type="radio" name="note" value="1">分数</input><br>
+                <input type="radio" name="note" value="2">小数</input><br>
+                <input type="radio" name="note" value="3">強半弱</input>
+            </div>
+        </form>
+    </body>
+</html>
