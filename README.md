@@ -6,7 +6,7 @@ Display the amount of ingredients on the recipe site at a custom magnification.�
 
 # 導入方法
 当ツールはPC版Chrome拡張機能のみとなっています。  
-①ディレクトリごとダウンロード  
+①「レシピ分量計算機」ディレクトリをダウンロード  
 ②Chromeで「chrome://extensions/」にアクセス  
 ③デベロッパーモードをONにする  
 ④「パッケージ化されていない拡張機能を読み込む」を選択  
