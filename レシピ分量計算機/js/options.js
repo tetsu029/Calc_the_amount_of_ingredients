@@ -11,10 +11,8 @@ window.onload = function() {
         }
         $("#num").val(localStorage["num"]);
     }
-    if(!$( 'input[name="note"]:radio' ).val()){
-        if(!localStorage["note"]){
-          localStorage["note"] = "0";
-        }
+    if(!localStorage["note"]){
+        localStorage["note"] = "0";
     }
     $( 'input[name="note"]:radio' ).val([localStorage["note"]]);
 }

@@ -90,6 +90,9 @@ async function changeWebPage(){
 async function getNotation(){
     var n = await getLocalStorageValue("note");
     console.log(n);
+    if(!n){
+        n = 0;
+    }
     return Number(n);
 }
 
@@ -97,6 +100,12 @@ async function getMagnification(){
     var den, num;
     den = await getLocalStorageValue("den");
     num = await getLocalStorageValue("num");
+    if(!den){
+        den = 1;
+    }
+    if(!num){
+        num = 1;
+    }
     console.log(den,num);
     var m = num / den;
     if(!m){
