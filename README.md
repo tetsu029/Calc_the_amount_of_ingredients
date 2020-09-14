@@ -15,7 +15,7 @@ Display the amount of ingredients on the recipe site at a custom magnification.�
 参考：[自作の拡張機能をChromeに追加するには - パッケージ化されていない拡張機能を読み込む](http://reviews.f-tools.net/Add-On/Jisaku-Tuika.html#Reading)  
 
 # 使い方
-拡張機能アイコンバーに追加された当ツールをクリックすると設定ページがポップアップされます。  
+拡張機能アイコンバーに当ツールを固定しておき、アイコンをクリックすると設定ページがポップアップされます。  
 ここで倍率の設定と小数点以下の端数表記の設定ができます。  
 レシピページに表記された分量やn人分などから、作りたい分量への倍率を設定すると画像のように「本来の分量 → 設定した倍率の分量」という表示になります。  
 <img src="https://user-images.githubusercontent.com/71125646/93037267-faa95380-f67c-11ea-951e-95747551faee.png" width=50%>  
